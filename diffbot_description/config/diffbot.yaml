@@ -1,0 +1,9 @@
+diff_drive_sim:
+  ros__parameters:
+    wheel_radius: 0.05          # must match the URDF
+    wheel_separation: 0.30      # must match the URDF
+    max_wheel_speed: 20.0       # rad/s, wheel saturation
+    rate: 50.0
+    cmd_timeout: 0.5            # stop if no cmd_vel for this long
+    odom_frame: odom
+    base_frame: base_footprint
